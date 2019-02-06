@@ -1,0 +1,79 @@
+{
+  "_from": "react-native-modal-select-option",
+  "_id": "react-native-modal-select-option@0.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-Itf+jKt2VWTaZToFTUhi++GEmV1ttqIkM/caVXLZV8ZX1OllkkIH6H46/6Kv/zGOaIgT94BeejhftWqcEi6faQ==",
+  "_location": "/react-native-modal-select-option",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-modal-select-option",
+    "name": "react-native-modal-select-option",
+    "escapedName": "react-native-modal-select-option",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-modal-select-option/-/react-native-modal-select-option-0.0.7.tgz",
+  "_shasum": "6b2cea812c0b3a64d1a748073e96687b5b68d6e4",
+  "_spec": "react-native-modal-select-option",
+  "_where": "/Users/rajenderreddy/Desktop/test/test",
+  "author": {
+    "name": "vizzlearn@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/theredfoxfire/react-native-dropdown-modal.git"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "react-native dropdown select option with modal",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-transform-class-properties": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "enzyme": "^2.5.1",
+    "eslint": "^2.12.0",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-flow-vars": "^0.4.0",
+    "eslint-plugin-react": "^5.1.1",
+    "expect": "^1.20.1",
+    "flow-bin": "^0.27.0",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.2"
+  },
+  "homepage": "https://github.com/theredfoxfire/react-native-dropdown-modal.git",
+  "keywords": [
+    "react-native",
+    "dropdown",
+    "es6-class",
+    "select-option",
+    "modal"
+  ],
+  "license": "ISC",
+  "main": "lib/Dropdown.js",
+  "name": "react-native-modal-select-option",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/theredfoxfire/react-native-dropdown-modal.git"
+  },
+  "scripts": {
+    "build": "rimraf lib && babel src --ignore '_*' --out-dir lib",
+    "lint": "eslint --max-warnings 0 .",
+    "prepublish": "npm run build",
+    "test": "npm run lint && npm run typecheck && npm run test-src",
+    "test-src": "mocha src/__tests__/*.js src/**/__tests__/*.js",
+    "typecheck": "flow"
+  },
+  "version": "0.0.7"
+}
